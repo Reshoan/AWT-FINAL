@@ -240,7 +240,7 @@ export function MeetingForm({
         />
 
         <div className="flex gap-2 justify-end">
-          <Button className="bg-green-600 hover:bg-green-700"
+          <Button 
             disabled={form.formState.isSubmitting}
             type="button"
             asChild
