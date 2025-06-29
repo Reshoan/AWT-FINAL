@@ -240,7 +240,7 @@ export function MeetingForm({
         />
 
         <div className="flex gap-2 justify-end">
-          <Button
+          <Button className="bg-green-600 hover:bg-green-700"
             disabled={form.formState.isSubmitting}
             type="button"
             asChild
@@ -248,7 +248,7 @@ export function MeetingForm({
           >
             <Link href={`/book`}>Cancel</Link>
           </Button>
-          <Button disabled={form.formState.isSubmitting} type="submit">
+          <Button className="bg-green-600 hover:bg-green-700" disabled={form.formState.isSubmitting} type="submit">
             Schedule
           </Button>
         </div>
