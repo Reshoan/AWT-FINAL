@@ -1,5 +1,4 @@
 import type React from "react"
-import { UserButton } from "@clerk/nextjs"
 import { Leaf, Home, Calendar, PenTool } from "lucide-react"
 import Link from "next/link"
 
@@ -64,18 +63,6 @@ export default function DashboardLayout({ children, currentPage }: DashboardLayo
             )
           })}
         </nav>
-
-        {/* User Button at Bottom */}
-        <div className="mt-auto">
-          <UserButton
-            afterSignOutUrl="/"
-            appearance={{
-              elements: {
-                avatarBox: "w-10 h-10",
-              },
-            }}
-          />
-        </div>
       </div>
 
       {/* Main Content */}

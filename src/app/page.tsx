@@ -52,7 +52,7 @@ export default function LandingPage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <SignedOut>
-                  <Link href="/sign-up">
+                  <Link href="/book">
                     <Button
                       size="lg"
                       className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg w-full sm:w-auto"

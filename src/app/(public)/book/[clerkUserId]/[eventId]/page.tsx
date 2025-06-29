@@ -94,7 +94,7 @@ function NoTimeSlots({
       </CardContent>
       <CardFooter>
         <Button asChild>
-          <Link href={`/book/${calendarUser.id}`}>Choose Another Event</Link>
+          <Link href={`/book`}>Choose Another Event</Link>
         </Button>
       </CardFooter>
     </Card>

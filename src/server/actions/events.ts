@@ -21,7 +21,7 @@ export async function createEvent(
 
   await db.insert(EventTable).values({ ...data, clerkUserId: userId })
 
-  redirect("/events")
+  redirect("/appointments")
 }
 
 export async function updateEvent(
@@ -44,7 +44,7 @@ export async function updateEvent(
     return { error: true }
   }
 
-  redirect("/events")
+  redirect("/appointments")
 }
 
 export async function deleteEvent(
@@ -64,5 +64,5 @@ export async function deleteEvent(
     return { error: true }
   }
 
-  redirect("/events")
+  redirect("/appointments")
 }
