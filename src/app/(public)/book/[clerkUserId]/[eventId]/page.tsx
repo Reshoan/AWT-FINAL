@@ -93,7 +93,7 @@ function NoTimeSlots({
         or choose a shorter event.
       </CardContent>
       <CardFooter>
-        <Button asChild>
+        <Button asChild className="bg-green-600 hover:bg-green-700">
           <Link href={`/book`}>Choose Another Event</Link>
         </Button>
       </CardFooter>
